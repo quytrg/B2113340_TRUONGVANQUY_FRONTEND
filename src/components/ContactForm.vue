@@ -3,6 +3,7 @@
     <div class="form-group">
       <label for="name">Tên</label>
       <Field
+        id="name"
         name="name"
         type="text"
         class="form-control"
@@ -13,6 +14,7 @@
     <div class="form-group">
       <label for="email">E-mail</label>
       <Field
+        id="email"
         name="email"
         type="email"
         class="form-control"
@@ -23,6 +25,7 @@
     <div class="form-group">
       <label for="address">Địa chỉ</label>
       <Field
+        id="address"
         name="address"
         type="text"
         class="form-control"
@@ -33,6 +36,7 @@
     <div class="form-group">
       <label for="phone">Điện thoại</label>
       <Field
+        id="phone"
         name="phone"
         type="tel"
         class="form-control"
@@ -42,6 +46,7 @@
     </div>
     <div class="form-group form-check">
       <input
+        id="favorite"
         name="favorite"
         type="checkbox"
         class="form-check-input"
